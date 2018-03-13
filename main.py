@@ -10,7 +10,7 @@ from skafossdk import *
 if 'MOVIE_DB' in os.environ:
   api_key = os.environ['MOVIE_DB']
 else:
-  sys.exit('Please save a movie database api key in your environment!')
+  sys.exit('Please save a movie database api key in your environment!...')
 
 # Any movie with a popularity score lower than 15 is likely irrelevant
 if 'POPULARITY' in os.environ:
